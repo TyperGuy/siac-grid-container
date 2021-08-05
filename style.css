@@ -1,0 +1,79 @@
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+ 
+}
+
+.grid-container>div {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 14px;
+}
+.grid-container .up{
+  width:70%;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.grid-container .down{
+  display: flex;
+  flex-direction: row;
+  width:70%;
+  height: 250px;
+}
+
+
+.grid-container .up .right-child{
+  width:70%;
+  height: 100%;
+  background-color:rgba(235, 35, 35, 0.533);
+  margin-left: 14px;
+}
+.grid-container .up .left-child{
+  display: flex;
+  flex-direction: column;
+  width:30%;
+  height: 100%;
+  
+}
+.grid-container .up .left-child .child{
+  justify-content: center;
+  width:100%;
+  height: 100%;
+  background-color:rgba(35, 188, 235, 0.533);
+
+}
+.grid-container .up .left-child .up{
+  margin-bottom: 14px;
+
+}
+
+
+
+.grid-container .down .child{
+  width: 100%;
+  height: 100%;
+ 
+}
+.grid-container .down .right{
+  background-color: blueviolet;
+}
+.grid-container .down .middle{
+  background-color: cadetblue;
+  margin: 0 14px;
+}
+.grid-container .down .left{
+  background-color: darkgoldenrod;
+}
+
+
+
+
+
+
+
