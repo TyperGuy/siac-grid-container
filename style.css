@@ -17,7 +17,24 @@
   height: 500px;
   display: flex;
   flex-direction: row;
-
+}
+.grid-container .up .right-child{
+  width:70%;
+  height: 100%;
+  background-color:rgba(235, 35, 35, 0.533);
+  margin-left: 14px;
+  padding: 0;
+}
+.grid-container .up .right-child .img{
+  width:100%;
+  height: 100%;
+}
+.grid-container .up .right-child .news-header{
+  width:645px;
+  height: 200px;
+  position: absolute;
+  background-color:rgba(1, 1, 1, 0.7);
+  top: 74.3%;
 }
 
 .grid-container .down{
@@ -28,12 +45,7 @@
 }
 
 
-.grid-container .up .right-child{
-  width:70%;
-  height: 100%;
-  background-color:rgba(235, 35, 35, 0.533);
-  margin-left: 14px;
-}
+
 .grid-container .up .left-child{
   display: flex;
   flex-direction: column;
