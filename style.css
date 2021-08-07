@@ -1,4 +1,4 @@
-
+@media only screen and (max-width:  1366px){
 
 
 .grid-container {
@@ -10,8 +10,7 @@
 }
 
 .grid-container>div {
-  text-align: center;
-  font-size: 30px;
+  color: white;
   margin-top: 14px;
 }
 .grid-container .up{
@@ -33,7 +32,7 @@
 }
 .grid-container .up .right-child .news-header{
   width:645px;
-  height: 200px;
+  height: 155px;
   position: absolute;
   background-color:rgba(1, 1, 1, 0.7);
   top: 74.3%;
@@ -85,9 +84,32 @@
   background-color: darkgoldenrod;
 }
 
+.content-container{
+  margin: 0px 20px;
+  box-sizing: border-box;
+}
+.detail svg{
+    width: .875em;
+}
+.detail ul{
+  list-style: none;
+  padding: 0;
+  margin-bottom:8px;
+}
+.title {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 27px;
 
+}
+.content{
+  text-align: justify;
+  margin-top:10px;
+}
 
-
+}
 
 
 
