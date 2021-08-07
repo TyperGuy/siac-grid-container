@@ -90,11 +90,13 @@
 }
 .detail svg{
     width: .875em;
+    height: .875em;
+    margin-right: 5px;
+
 }
-.detail ul{
-  list-style: none;
+.detail {
   padding: 0;
-  margin-bottom:8px;
+  margin:10px 0px 8px 0px;
 }
 .title {
   text-decoration: none;
