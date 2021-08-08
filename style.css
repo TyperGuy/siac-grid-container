@@ -47,7 +47,6 @@
   flex-direction: row;
   width:70%;
   height: 150px;
-  
 }
 
 
@@ -177,6 +176,8 @@
   background-size: cover;
 }
 .down .child .opacity{
+  display: flex;
+  flex-direction: column;
   width: 100% !important;
   height: 100% !important;
   background-image: linear-gradient(180deg,transparent, black);
@@ -184,12 +185,10 @@
 }
 
 .down .child .opacity ul{
-  display: flex;
-  flex-direction: column;
   list-style: none;
   margin: 0;
-  bottom: 30px;
-  position: absolute;
+  position: relative;
+  top: 70%
 }
 .down .child .opacity ul #acronimo{
   font-size: 16px;
